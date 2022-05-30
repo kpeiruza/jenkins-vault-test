@@ -5,7 +5,7 @@ def secrets = [
     [envVar: 'API_KEY', vaultKey: 'api-key']]],
 ]
 
-def configuration = [vaultUrl: 'http://vault.vault.svc.cluster.local:8200',  vaultCredentialId: 'jenkins-role', engineVersion: 2]
+def configuration = [vaultUrl: 'http://vault.vault.svc.cluster.local:8200',  vaultCredentialId: 'Vault-Jenkins-Role', engineVersion: 2]
                       
 pipeline {
     agent any
